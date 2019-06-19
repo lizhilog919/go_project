@@ -75,9 +75,8 @@
 
 <body>
   <header>
-    <h1 class="logo">Welcome to Beego</h1>
+    <h1 class="logo">小呆呆</h1>
     <div class="description">
-      袁灵心, I love you !
     </div>
   </header>
   <footer>
