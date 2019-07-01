@@ -6,7 +6,8 @@ import (
 )
 
 func init() {
-	beego.Router("/api/upload", &api.UploadApiController{})
+	beego.Router("/api/upload", &api.TestController{})
+	beego.Router("/api/test", &api.UploadApiController{})
 	beego.Router("/api/user/register", &api.UserController{}, "*:Register")
 	beego.Router("/api/user/login", &api.UserController{}, "*:Login")
 	beego.Router("/api/user/delete", &api.UserController{}, "POST:Delete")
